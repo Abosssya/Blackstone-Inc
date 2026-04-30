@@ -15,7 +15,7 @@ def login():
     """, unsafe_allow_html=True)
 
     with st.container():
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blackstone_Logo.svg/1200px-Blackstone_Logo.svg.png", width=250)
+        st.image("https://www.facebook.com/blackstonesboston/", width=250)
         st.title("🛡️ Beacon Access Portal")
         st.write("Institutional Equity Reporting & Valuation System")
         
