@@ -27,7 +27,7 @@ if not st.session_state.authenticated:
     st.stop() # Stops the rest of the app from loading until login is successful
 
 # 5. SIDEBAR BRANDING & NAVIGATION
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Blackstone_logo.svg/1200px-Blackstone_logo.svg.png", width=200)
+st.sidebar.image("https://findvectorlogo.com/blackstone-products-vector-logo-svg/", width=200)
 
 # Single Navigation Menu
 menu = st.sidebar.selectbox("Module Selection", 
